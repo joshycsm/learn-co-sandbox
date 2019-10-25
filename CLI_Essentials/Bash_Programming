@@ -1,0 +1,14 @@
+View file contents with cat and open
+Print text with echo
+Redirect text
+Set PATH and environment variables
+Look up Bash documentation with man
+
+"cat [filename]" command reads a file and prints the content on your command line
+"open ." command only available on Mac OSX
+"echo" command takes a string and prints it to the screen
+You can redirect echo text into a file with >> do not use > or it will overwrite the file.
+echo $PATH to view the current "PATH"
+"man" command brings up a manual pages for almost any command
+Enter "$ q" to return to your command prompt
+CONCLUSION: Software developers rely heavily on command-line interfaces to perform tasks more efficiently, confgure their machines, or access programs and program features that are not availble through a graphical interface. File interactions and process management may be difficult for new CLI users to grasp but with a little practice, these new ways of working will become your ally

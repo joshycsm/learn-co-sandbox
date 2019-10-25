@@ -1,0 +1,22 @@
+Define IRB
+Identify REPLs
+Explain why REPLs are useful
+Access and exit IRB via your terminal
+Execute commands in IRB
+Demonstrate the typographical convention for showing return values in-line
+Demonstrate the typographical convention for offsetting code
+
+When we send an expression to Ruby, it will evaluate the expression, and send back some return value or response.
+IRB stands for 'Interactive Ruby'.
+Type "irb" command into your computer's terminal to run IRB.
+Programs like IRB are known as "REPLs". "REPL" stands for 'Read-Evaluate-Print Loop'.
+REPLs inclue: Python, Ruby, Lisp, and others.
+We will cover REPLs more in the next section.
+IRB only exists temporarily, thus it is for testing and playing with code.
+Identifying IRB as a REPL, gives you a place where: You type in a Ruby expression (which IRB 'reads' as 'input'), IRB 'evaluates' the expression based on the rules of Ruby, IRB 'prints' a response or return value as 'output'.
+REPLs are useful: IRB is a quick "labratory" where we can see how something works. This is usually better than looking at the docs or writing a Stack Overflow post. With just a simple bit of test data we can verify we understand how a line of code is working.
+'debugging' is applied to computers or 'troubleshooting' when applied to pretty much everything else.
+To access IRB, just type 'irb' in the terminal. type 'exit' to leave IRB, and this will get you back to your command line.
+use #=> to imagine what IRB might do with the expression, to show return values in-line.
+offsetting code?.... 9*9#=>81 use specific typeface..will make code things "pop out" for your eye.
+Conclusion: As we get into more complex code, sometimes we need a quick scratch pad to work in to test a bit of code out. IRB is great for this purpose. We can use it to learn about unfamiliar keywords, calculate equations, and, in general, become more comfortable writing in Ruby.

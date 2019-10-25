@@ -1,0 +1,8 @@
+$touch <empty_file> will create empty files in the current directory with the "touch" command
+$mkdir <name_of_directory> will make directories with the "mkdir" command
+$rm <empty_file> to delete a file with the "rm" command
+$rm -r <name_of_directory> if you want to delete a directory, you need to provide the "-r" flag command
+$cp will copy.. also include "-r" if you want to copy a directory
+Additional options to "rm" command: "-i"-prompts you to confirm the deletion "-f"-dangerous! "-v"-shows the progress of the files as they are being removed
+"ls" command will list directory files in the shell
+"mv" command to move or rename files and directories

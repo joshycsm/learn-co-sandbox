@@ -7,3 +7,6 @@ The "command-line interface" is used to move files, create directories, and even
 The most important reason to become very familiar with the CLI is this: Tools you will need to be a devloper will require you to use them through the command-line interface.
 GUI- Graphical User Interface: Many computer users are familiar with performing actions and executing tasks with THIS instead of CLIs.
 WARNING: Commands that list files or create directories are not likely to break anything. Commands that remove files or directories, however, should be used with CAUTION.
+Useful Links: https://www.cybrary.it/0p3n/command-line-interface-cli-vs-graphical-user-interface-gui/
+              https://lifehacker.com/a-command-line-primer-for-beginners-5633909
+Random: I use moc for playing music, irssi for irc, vim/nano for text etc.with CLI use.

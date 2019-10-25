@@ -1,0 +1,25 @@
+CLI Essentials Quiz
+What's a task that can be achieved with a CLI?
+Working with computers remotely
+Managing files on a file server or web server (e.g., managing a web page)
+Automating commonly performed tasks
+All of the above.
+Which command is used to identify the logged-in username?
+whoami
+Which command is used to change directories in bash?
+cd
+Which command is used to list directory files in the shell?
+ls
+Which command is used to create empty files?
+touch
+Which command is used to remove a directory?
+rm -r
+rm -rf
+Which command prints the contents of a file?
+cat
+Which command navigates back to a home directory?
+cd
+Which command navigates up one directory?
+cd ..
+Which command renames a file?
+mv

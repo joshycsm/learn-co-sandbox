@@ -1,0 +1,5 @@
+In this module, we will begin our learning process with learning how to program in Ruby.
+Programming is communication.
+Given an expresion, Ruby will evaluate it and, like a good friend, give you a reaction about how it evaluated your expression. In day-to-day life we call that a "response". In the programming world we call responses from the programming language a 'return value'.
+When expressions are evaluated, they return something.
+Conclusion: We will spend the remainder of this module learning to build expressions and predict how ruby will 'evaluate' them.

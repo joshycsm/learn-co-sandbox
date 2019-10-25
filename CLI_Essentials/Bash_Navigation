@@ -1,0 +1,4 @@
+"Navigating"- Looking to see what's inside folders like your directories and desktop
+"path"- What we call a bit of text meant to communicate location on a file system
+Paths use "/" to show levels of "nesting".
+The "/" directory is also called the "root" directory
