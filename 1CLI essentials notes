@@ -1,7 +1,8 @@
 Learning Goals:
 Define "Command Line Interface": a text-based conversation with the computer in which we type the commands for : viewing, handling, and manipulating files on your computer, launching software, and working with devices like printers or networks. The CLI  asks ( or "prompts") the user for a command, the user types it in, and then the computer runs the "sentence" that was typed in. It returns output, too (where appropriate).
 Describe the purpose of CLIs: to work with computers remotely, manage files on a file server or web server, automating commonly performed tasks, learn even more about computers.
-Identify differences between comand-line interface, terminal emulator, and shell:
+Identify differences between comand-line interface, terminal emulator, and shell: When you use the CLI, you launch a "terminal" program, that's short for "terminal emulator. When you launch the "terminal emulator" program, it will immediately start a program called a shell program. The shell program is what actually prompts you for input and returns the output. "bash" is the shell most computers have as their default.
+NOTE: Interpretation of the commands themselves is handled by the "shell", not the terminal. You can type commmands into the terminal, though. The shell works with the operating system and the CPU. The phrase "command-line" is roughly the same as "shell". It's a style of interaction with the "shell".
 The "command-line interface" is used to move files, create directories, and even run programs.
 The most important reason to become very familiar with the CLI is this: Tools you will need to be a devloper will require you to use them through the command-line interface.
 GUI- Graphical User Interface: Many computer users are familiar with performing actions and executing tasks with THIS instead of CLIs.
