@@ -11,4 +11,5 @@ You can redirect echo text into a file with >> do not use > or it will overwrite
 echo $PATH to view the current "PATH"
 "man" command brings up a manual pages for almost any command
 Enter "$ q" to return to your command prompt
+
 CONCLUSION: Software developers rely heavily on command-line interfaces to perform tasks more efficiently, confgure their machines, or access programs and program features that are not availble through a graphical interface. File interactions and process management may be difficult for new CLI users to grasp but with a little practice, these new ways of working will become your ally

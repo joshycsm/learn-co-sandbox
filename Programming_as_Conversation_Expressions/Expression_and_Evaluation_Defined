@@ -1,0 +1,19 @@
+Define "Expression"
+
+
+
+Identify the Parts of an Expression
+
+
+
+
+Identify Core Operators in Ruby
+We use ** intead of ^ since that means something else in programming language. exponentation.
+fun fact "^"
+
+
+
+Define "Evaluation"- The process of interpreting an expression, according to rules, to produce a return value.
+
+Conclusion: We're going to introduce the Essential Three Expressions: constant expression, assignment expression (variable assignment), and variable look up expression.
+The Constant Expression is the first of the essential expressions that you might consider oddly dull and perhaps even just a bit mysterious.

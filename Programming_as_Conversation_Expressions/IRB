@@ -19,4 +19,5 @@ REPLs are useful: IRB is a quick "labratory" where we can see how something work
 To access IRB, just type 'irb' in the terminal. type 'exit' to leave IRB, and this will get you back to your command line.
 use #=> to imagine what IRB might do with the expression, to show return values in-line.
 offsetting code?.... 9*9#=>81 use specific typeface..will make code things "pop out" for your eye.
+
 Conclusion: As we get into more complex code, sometimes we need a quick scratch pad to work in to test a bit of code out. IRB is great for this purpose. We can use it to learn about unfamiliar keywords, calculate equations, and, in general, become more comfortable writing in Ruby.

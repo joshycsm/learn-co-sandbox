@@ -1,0 +1,8 @@
+Identify the constant expression
+It is an expression composed only of constants. Its return value is the same as the constants.
+
+Explain how the constant expression stops evaluation
+Important because it tells Ruby when to stop.
+
+
+Explain how the constant expression creates agreement
