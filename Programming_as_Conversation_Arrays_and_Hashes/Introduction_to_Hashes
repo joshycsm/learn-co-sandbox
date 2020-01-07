@@ -1,0 +1,25 @@
+Define a Ruby hash
+'Hash' is a "lookup table" like a dictionary. A hash can allow us to associate things we are trying to compare or look up. A 'hash' is a collection of data that is separated into pairs of keys and values. Each key/value pair makes up one unit in the hash. The entire collection of key/value pairs, which are comma separated, is enclosed in curly braces "{}": {"key" => "value", "another_key" => "another value"}
+Define hash keys
+Can be any type of data but most of the time we use Strings or Symbols. Rubyist prefer symbols although JSON hashes are used for better compatability with JavaScript.... {ruby: "what", say: "yes}
+Define hash values
+Are bits of data that are returned when we give a "Hash" a 'key' to use to do a look up. Hash values don't need to contain values of all the same type!
+Create a Hash using its implicit ("Hash-Literal") form
+# "implicit, Hash-Literal form
+new_hash = {
+  :created => Time.now,
+  :message => "Hello world!"
+}
+# JSON Hash Style
+new_hash = {
+  created: "Time.now"
+  message: "Hello world!"
+}
+Create a Hash with Hash.new
+second_new_hash = Hash.new
+#=> {}
+second_new_hash = {}
+#=> {}
+
+Conclusion: We're just getting started with hashes, but hopefully, you can already see why they might be useful. With hashes, we can use hash keys as a way of naming individual pieces of data. Including multiple key/value pairs allows us to associate different bits of data, bundling them all up into one object.
+Now that we can create hashes and store data as key/value pairs, in the next lesson, we'll look at how we can access, update, and even delete those "pairs."

@@ -1,0 +1,20 @@
+Review the Symbol data type
+Is a scalare data type. They share some similarities with strings, but instead of being wrapped in quotations, symbols start with a colon ( : ):
+When referring back to a symbol, Ruby will refer back to the same allocation in memory. We can actually see this by using a method built in to all core data types called "object_id".
+
+
+Recognize the immutability of symbols
+Unlike strings, symbols cannot be changed. They are immutable. Once created, always refer to thesame point in memory. We might change the value of the pair, but we will likely never need to change the key.
+
+
+Compare the use of symbols and strings as hash keys
+If we use strings, in this case... as a hash key, we would create many, many allocations of memory. Using symbols we only use one!.
+
+
+Recognize Ruby's alternate syntax for hashes with symbols for keys
+When using Ruby's alternative syntax, it will no longer have a colon before but will have a colon immediately after, in place of the hash-rocket.
+This syntax only works for keys that are symbols but is similar in sytax to how other languages like JavaScript write their key/value pairs.
+When displaying a hash, Ruby will still display the old hash-rocket format.
+"alternate" format and the old "hash-rocket" syntax are both fine, neither is better or worse. They are just different ways of expressing the idea of key/value pairs within a collection.
+
+Conclusion: Symbols are a great choice to use for keys when constructing hashes. Although keys can be made from whatever data type we fell is best, symbols come with some advantages. No matter how many times a symbol is written in your code, Ruby will consider it to be the same thing, allocating just one location in memory for the symbol.

@@ -1,0 +1,34 @@
+Retrieve data from hashes
+Give the hash the name of the "[key]" and the hash will return the value associated with the 'key'.
+Using "[]" is referred to as "bracket notation".
+We can also use variables inside the brackets.
+Ruby will look for the key that matches whatever is inside the brackets and return the associated value.
+
+Handle a nil response when no key is found
+if grocery_item[:rambutan]
+  puts "Rambutan present!"
+else
+  puts "No rambutan."
+end
+
+STRETCH!: Look at the documentation for the "Hash" class. See if you can find a method that will look up a key and will let you specify what to return if the key is not found! The default data types of Ruby have a POWERFUL magic inside of them that's yours to discover. As a hint it's a method that a dog might know how to respond to :) =O....hash.fetch..
+h = {
+  'a' => :a_value,
+  'b' => nil,
+  'c' => false
+}
+
+h.fetch('a', :default_value) #=> :a_value
+h.fetch('b', :default_value) #=> nil
+h.fetch('c', :default_value) #=> false
+h.fetch('d', :default_value) #=> :default_value
+
+(h['a'] || :default_value) #=> :a_value
+(h['b'] || :default_value) #=> :default_value
+(h['c'] || :default_value) #=> :default_value
+(h['d'] || :default_value) #=> :default_value
+
+
+
+
+Conclusion: Given a hash and its keys, we can retrieve all the values present in that hash. We are now able to create hashes as a way to store associated data and can use the bracket method to retrieve that stored data as needed.

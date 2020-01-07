@@ -1,0 +1,12 @@
+Use each to Work with an Array
+
+
+
+Explain why each is the least-expressive Enumerable
+
+It communicates the 'least' to other programmers about what it is we're trying to do.
+
+We should always strive to have code that communicates first and works second.
+
+
+

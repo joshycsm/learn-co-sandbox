@@ -1,0 +1,17 @@
+Identify that nested structures can be mixed
+Disscussion of how to model an NDS is what devolopers spend a great number of their meetings and pair programming sessions discussing!
+
+Explain the Entire Vending Machine from the Top Down
+We have a coordinate grid. That's an AoA. In each coordinate, there's a "spinner" with mulitple snacks. Each snack has two important facts associated with it, a :name string and a :price Integer.
+
+Explain how the Entire Vending Machine from the Bottom Up 
+A price of the snack represented by an 'Integer'
+Each snack has a name stored as a 'String'
+Each snack collects those facts in a 'Hash' that has keys ':name' and ':price'
+
+Multiple snacks are stored in an indexed collection, an 'Array' that represents the "spinner device. Each "spinner" is accessible by a coordinate within an AoA "grid."
+The vending machine is the super-container AoA.
+
+Whichever approach feels more natural to you, feel free to use it.
+
+Show the Data Structure as Ruby Code 

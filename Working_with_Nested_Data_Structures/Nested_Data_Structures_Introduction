@@ -1,0 +1,18 @@
+Transforming raw data, usually held in complex nested data structures, to insights is one of the most essential roles programmers fulfill in businesses. These insights help us decided where to (or not to) build a warehouse, evaluate whether an investment is likely to be positive or negative, build alternative major-league baseball staffing strategies ("Moneyball"), or even, in the case of the 1854 outbreak, save lives.
+Our efforts will be divided into two phases:
+  Learn to build and evaluate complex NDS' so that we can work with them
+  Identify a process for writing programs that process NDS' into insights
+  
+Conclusion: Reading and processing NDS allows us to create insights that improve our lives!
+
+It is good to have a good grasp of the simplest NDSs. It is helpful to understand them in isolation since they tend to be nested together to build complex data structures.
+
+AoA, AoH, HoA, HoH
+
+These lessons ahead will use more technical and more precise language to describe them compared to previous or earlier lessons.
+
+Additionally, we discuss them with focus on how we are going to process them.
+
+Must move from understanding these structures, to knowing how to work with these structures!
+
+Turning knowledge to insight will be key in this module!
