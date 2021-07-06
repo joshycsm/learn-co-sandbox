@@ -1,0 +1,9 @@
+Recognize that coordinate assignments grow nested Arrays
+An array will grow with "nil" values as necessary to accomodate a new coordinate pair addition to an inner Array etc.
+
+
+
+Recognize single-coordinate access of Arrays returns an Array
+Recognize this! Also, changing any inner array row is just fine.
+
+Conclusion: Understand the "nil" return value versus an actual return value. inner Arrays are Arrays!

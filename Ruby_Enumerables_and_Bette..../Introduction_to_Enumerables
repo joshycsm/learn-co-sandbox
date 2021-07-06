@@ -1,0 +1,56 @@
+Define the "Character of Enumerable Methods"
+1. Given a collection
+2. Based on the number, visit each one by its number in the series(Latin:ex numero, the source of "enumerate")
+3. Do some "work" or "test" the elements or pairs in the collection
+4. THEN:
+    Accumulate those elements-after-work-was-applied into a new collection
+    OR, determine some special value like: maximum, minimum, true if all values were truthy, true if any values were truthy, true if no values were truthy, etc.
+This template applies to all Enumerable methods.
+
+
+Pseudocode a Real-World Use of Enumerables
+while on_the_train
+  if i_here_a_sick_sound
+    my_mask_status = true
+  end 
+end
+
+def i_here_a_sick_sound(passengers)
+  # Given a collection of passengers' sounds ["coughing", "yawning", "sneezing", "singing Jamaican traditional folksong"]
+  # If any of them are sick sounds: coughing, sneezing
+  # return 'true'; else return 'false'
+end 
+
+real code to replace Pseudocode!
+
+def i_here_a_sick_sound(passengers_sounds)
+  i= 0 # set up a i for the enumeration of the passengers collection
+  while i < passengers_sounds.length do # a loop for each passengers_sounds
+    # Stop enumerating and return true if any passenger i_here_a_sick_sound
+    # coughing or sneezing
+    if (passengers_sounds[i] == "coughing" ||
+  passengers_sounds[i] == "sneezing")
+      return true
+    end
+    i += 1
+    end
+    return false
+  end
+
+i_here_a_sick_sound(["coughing", "foo", "bar", "bin", "bat"]) #=> true
+i_here_a_sick_sound(["sneezing", "foo", "bar", "bin", "bat"]) #=> true
+i_here_a_sick_sound(["foo", "bar", "bin", "bat"]) #=> false
+
+
+Consult Ruby's Enumerable Documentation
+
+To help make sure you grasp what kinds of methods follow the "Character of Enumerable Methods", consult Ruby's 'Enumerable documentation'.
+Look into methods that you find interesting and figure out what the return values are for applying such-and-such Enumerable?
+
+Enumeration Versus Enumerables
+To feel truly confortable with Enumerables methods, we have to understand the challenging coding ideas of:
+Capturing work (but not doing it) using a thing called a 'block'
+Doing th ework and passing it arguments based on visiting each element or pair in the collection. This is called 'yielding' to a block
+Gathering a new collection or combining the indivual results into an aggregate results
+
+Conclusion: A wide number of problems have a solution that involves follwoing the "character" of enumeration- Process a collection by visiting each one and do "work" on it in order to return a new collection or an aggregate value. Understanding enumeration in the big picture is the first step to understanding Enumerable methods, which we'll begin study in the next lesson.

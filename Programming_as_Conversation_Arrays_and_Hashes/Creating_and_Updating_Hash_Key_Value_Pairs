@@ -1,0 +1,27 @@
+Update hash values
+Updating hash values is very similar to looking them up. For updating, we use the "bracket-equals" method: person[:age] = 32 will update the hash value to 32 from whatever it was prior. Using the bracket-equals method, we can mutate any value stored inside a hash. All we need to know is the associated key.
+
+Add keys and values to a hash
+The general syntax for adding a new value to a hash is: "hash[:new_key] = "New Value"" ":new_key" is the literal new key we added to the hash and we assigned the "new_key" a value of "New Value". Original hash will be mutated in this case.
+
+Find or create a hash value
+As we know, Ruby doesn't like to combine data types when it comes to operators. We can prevent this error from occuring by setting up a conditional and using the bracket method to first look up a key before trying to change it:
+if shipping_manifest["top hat]
+  shipping_manifest["top hat"] += 1
+else
+  puts "Key not found!"
+end
+
+The above conditional still doesn't resolve the issue of creating a hash key-value pair.
+It does help us to find a hash value from a known hash key given a hash key already exists. It can also allow us to mutate or alter the hash value of any given hash key.
+
+Ah! Instead of just outputting a message to the terminal in the conditional above, we can handle adding a key/value pair here (which is what we are interested in accomplishing).
+if shipping_manifest["top hat"]
+  shipping_manifest["top hat"] += 1
+else
+  shipping_manifest["top hat"] = 1
+end
+
+STRETCH: A method already exists to look for a value and set a default if not found! For the Hash class, a method indeeds exist so we don't have to use so much code just to check and test for "nil". !!!!!!!!!! Using fetch!
+
+Conclusion: With the ability to update values and create entirely new key/value pairs, we've tackled the core concepts behind Ruby hashes. In the next few lessons, we will reinforce these concepts with some lab practice.

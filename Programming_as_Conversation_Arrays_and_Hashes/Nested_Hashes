@@ -1,0 +1,19 @@
+Describe how nested hashes can store complex associations of data.
+A key in a hash can point to a value that is also a collection of objects, i.e. an array or even another hash. This is sometimes referred to as a multidimensional hash.
+
+Describe the structure of a nested hash.
+Usually taken from an API, Application Programming Interface, here referring to the way in which organizations, compnaies, and governments will expose their data to the public for use.
+May contain for example two keys representing two sub categories which have return values listed in an array.
+
+Give examples of real-world situations that can require nested hashes.
+Creating a simple command line game or an app to help hosipitals manage patient data. running a game or communicating critical information.
+One of the most common nested data structures you'll see when working with APIs is an array of hashes!
+
+Retrieve data from a nested hash
+
+To return the value of the key, we will need to use the "[]" method we've been using all along to grab the values of a particular hash key. instructors = school[:instructors]
+instructors = school[:instructors]
+
+Notice when accessing nested data, we can use bracket notation multiple times to go deeper into the data. WE can even mix hash keys and array indexes, as with tv_show_characters["Mr. Rogers"][:hobbies][1].
+
+Conclusion: Nested hashes can get pretty complicated. REad through the example in this lesson again before moving on. It's okay if you dont' understand everything; just try to get comfortable reading through the above nested hash.

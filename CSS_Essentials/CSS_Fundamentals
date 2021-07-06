@@ -1,0 +1,109 @@
+ID and Class Selectors
+
+ID selectors will target all elements with a specific ID attribute value
+The way we specify an ID selector in a CSS rule si to follow the element name with a hash symbol and then the ID attribute value we want to match.
+ex: p#introduction {
+        color: blue;
+    }
+ID selectors are useful when you want to give a single element on the page a unique identity and set it apart from everything else.
+
+Class selectors target all elements with a class attribute value matching the selector name.
+We specify a class selector using the period symbol followed by the name value.
+ex: p.alert {
+      color: red;
+    }
+The diffrence between IDs and classes is that IDs are meant for one element on the page that has a unique identity where class selectors are meant to be spread throughout th epage across multiple elements.
+
+COMPOUND selectors
+
+Compound selectors let us apply the same CSS rules to multiple elements at once.
+ex: h1, h2 {
+      color: green;
+    }
+    
+DESCENDANT selectors
+
+Decendant selectors target elements that are descendants of the matching selector name.
+ex: article p {
+      color: blue;
+    }
+In this case, only p elementss with the article element will recieve styling.
+
+LESS COMMON BUT POWERFUL SELECTORS BELOW
+
+CHILD SELECTORS
+
+The child selector targets all elements that are the immediate children of a specified element.
+ex: article > p {
+      color: blue;
+    }
+Only p tags one level down from article will display as blue.
+If there are p tags witin an aside element within the article element, they will not recieve the same instruction.
+
+ADJACENT SIBLING selector
+The adjacent sibling selector targets elements that appear directly after the matching selector name.
+We indicate it using a plus symbol
+ex: h3 + p {
+      color: blue;
+    }
+Here the adjacent sibling selector will style the paragraph directly following an h3 element but not paragraphs that come after the first.
+
+GENERAL SIBLING SELECTOR
+The general sibling selector (sometimes called the PRECEDED SELECTOR) will style all matched elements after the preceding selector name
+ex: h3 ~ p {
+      color: red;
+    }
+With this general sibling selector, all paragraph elements that come after the h3 will recieve the styling.
+
+Universal selector
+The universal selector matches any elements and will apply to elemtns that are not targeted by other rules.
+It's indicated by the star symbol
+ex: * {}
+In this case, this is going to set the color of the text yellow for any element that hasn't had its color property specified elsewhere.
+
+Attribute SELECTORS
+input[type="text] {}
+...main need to refer to the resources to explore them all.
+
+Pseudo-class SELECTORS
+Pseudo-class selectors target elements 
+The way we signify a Pseudo-class selector is with the colon symbol.
+a:link {}
+a:visited {}
+
+The Pseudo-class selectors also have alot of aspects so you can explore them more in other resources
+
+Implement Various Types of Color Values in CSS
+
+Hexadecimal Color Values
+
+#000000 black #ffffff white
+
+Traditional RGB colors are on a scale of 0 to 255
+
+RGB Color Values
+
+p {
+  color: rgb(255,255,255);
+}
+
+You can also add an extra channel to your RGB color by setting an "a" value, which represents opacity...0.5 = 50% opacity o the element will have a somewhat transparent color.
+
+Identify and Implement CSS Comments
+
+/* */ used to comment out things in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
